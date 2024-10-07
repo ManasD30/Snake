@@ -35,9 +35,6 @@ public class Board extends JPanel implements ActionListener {
 
     private Timer timer;
 
-    int width = getWidth();
-    int height = getHeight();
-
     private boolean inGame = true;
 
     private boolean leftDirection = false;
